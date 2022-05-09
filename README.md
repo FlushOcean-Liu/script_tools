@@ -1,2 +1,2 @@
 # script_tools
-script tools
+记录工作学习中常用的脚本小工具。
