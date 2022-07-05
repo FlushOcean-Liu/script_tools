@@ -9,7 +9,18 @@ cat test.txt | awk -F" " '{print $2}'
 ```
 
 ## 2.合并两个文件相同的行，指定合并分割符号
-```
+```bash
 # -d 表示两行合并中间的连接符号，可以为空
 paste -d "-" a.txt b.txt 
 ```
+
+## 3.rename批量修改文件名
+有两个版本c语言版本和perf版本，centos一般是c版本，ubuntu是perf版本
+
+把当面目录下所有后缀 .bak 的文件，把.bak全部去掉
+```bash
+#c版
+rename .bak "" *.bak
+
+#perf版
+rename 's/\.bak$//'  *.bak
