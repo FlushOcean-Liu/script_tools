@@ -1,0 +1,3 @@
+[start]
+cmd_line = "./yadpi -i 1-2"
+stat_max = 1003
