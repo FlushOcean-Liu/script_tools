@@ -24,3 +24,17 @@ rename .bak "" *.bak
 
 #perf版
 rename 's/\.bak$//'  *.bak
+
+
+
+## 4.大小写转换
+```bash
+str_lower='a-z'
+str_upper='A-Z'
+
+str_test="hello"
+
+lo=`echo $str_test | tr $str_upper $str_lower`
+up=`echo $str_test | tr $str_lower $str_upper`
+
+```
