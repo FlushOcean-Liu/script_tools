@@ -24,7 +24,7 @@ rename .bak "" *.bak
 
 #perf版
 rename 's/\.bak$//'  *.bak
-
+```
 
 
 ## 4.大小写转换
