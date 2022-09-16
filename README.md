@@ -37,4 +37,11 @@ str_test="hello"
 lo=`echo $str_test | tr $str_upper $str_lower`
 up=`echo $str_test | tr $str_lower $str_upper`
 
+# 把test变量中所有小写字母转为大写
+$ echo ${test^^}
+
+# 把变量中的所有大写字母，全部替换为小写
+$ echo ${test,,}
+
+
 ```
