@@ -10,7 +10,7 @@ spawn scp ./src/build/bid_recur root@192.168.5.50:/home/liugh/
 
 expect "password:"
 
-send "Tac@yamu.com!@#456\n"
+send "123456\n"
 
 expect eof
 
